@@ -9,3 +9,11 @@ print(pembagian)
 pertama = 5 ** 3
 kedua = 3 ** 8
 print(pertama, kedua)
+
+#operator untuk string
+huruf = "hello " + "world"
+print(huruf)
+
+#multiple string dalam satu perintah
+banyak = "hello world" * 100
+print(banyak)
