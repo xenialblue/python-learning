@@ -1,3 +1,8 @@
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
 secret = 12
 count = 0
 limit = 3
