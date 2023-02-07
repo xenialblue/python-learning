@@ -13,9 +13,9 @@ x = sum_twonumber(1,2)
 print(x)
 
 def list_benefits():
-    return "pintar", "jago problem solving", "paham komputer", "bisa jadi programmer"
+    return "Jago Coding", "Paaham matematika", "menjadi pintar", "sorting yang baik"
 def build_sentence(benefit):
-    return "%s is a benefit of functions!" %benefit
+    return "%s is a benefit of function" %benefit
 
 def name_the_benefits_of_functions():
     list_of_benefits = list_benefits()
