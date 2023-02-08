@@ -11,3 +11,4 @@ myobjecty.variable = "kitty"
 
 print(myobjectx.variable)
 print(myobjecty.variable)
+myobjectx.function()
