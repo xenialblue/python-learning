@@ -22,6 +22,5 @@ huruf.append("dua")
 nama_kedua = nama[1]
 print(angka)
 print(huruf)
-#print(repr(angka))
-__repr__(angka)
+print(repr(angka))
 print("Nama kedua dari list adalah %s" % nama_kedua)
