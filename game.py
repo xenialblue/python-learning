@@ -1,5 +1,5 @@
 import draw
-from draw import *
+from draw import draw_game
 
 if visual_mode:
     import draw_visual as draw
