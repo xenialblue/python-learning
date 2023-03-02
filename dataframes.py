@@ -6,4 +6,7 @@ dict = {"country": ["brazil","russia","indonesia","china","india","south africa"
 
 import pandas as pd
 brics = pd.DataFrame(dict)
+brics.index = ["BR", "RU", "ID", "CH", "ID", "SA"]
+cars = pd.read_csv('cars.csv')
 print(brics)
+print(cars)
