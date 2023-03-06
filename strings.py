@@ -15,3 +15,26 @@ data = ("John", "Doe", 53.44)
 format_string = "Hello %s %s your current balance is $%s"
 print(format_string % data)
 
+name = "nanda is my name"
+print(name)
+print(name.upper())
+print(name.lower())
+print(name.title())
+print("na" in name)
+print(name[1:8])
+
+#multiline String
+print("""
+    Hello
+    My Name
+    Is
+    Nanda
+    And 
+    Im
+    Here 
+    To
+    Learn
+    a Python
+    Programming
+    Language
+    """.upper())
