@@ -24,3 +24,14 @@ print(angka)
 print(huruf)
 print(repr(angka))
 print("Nama kedua dari list adalah %s" % nama_kedua)
+
+dogs = ["Roger", "Syd", "Quincy", "james"]
+dogs[1] = "Beau" #menggantikan salah satu index yang ada di atas
+dogs.extend(["Walt", "Lea"]) # menambah isi untuk index diatas atau menggunakan perintah +=
+dogs.remove("Quincy")
+dogs[1:1] = ("Jo", "Fabio")
+dogscopy = dogs[:]
+dogs.sort(key=str.lower)
+print(sorted(dogs, key=str.lower))
+print(dogs)
+print(dogscopy)
