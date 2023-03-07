@@ -1,13 +1,15 @@
-cukup = False
-tidak = True
-harga = 1000000
+condition = False
+name = input("What is Your Name ? ")
 
-if cukup:
-    jumlah = 0.1 * harga
-    print(f"Biaya: ${jumlah}")
-elif tidak:
-    jumlah = 0.2 * harga
-    print(f"Biaya: ${jumlah}")
-else:
-    print("Silahkan Coba Lagi")
-print("Terimakasih")
+if condition == True :
+    print("The Condition")
+    print("was True")
+elif name == "Roger" :
+    print("Hello Roger")
+elif name == "Syd" :
+    print("Hello Syd")
+elif name == "Flavio" : 
+    print("Hello Flavio")
+else :
+    print("The Condition")
+    print("was False")
