@@ -1,14 +1,18 @@
-class kelas:
-    variable = "tes"
-    
-    def function(self):
-        print("Pesan dari Kelas")
+class Animal:
+    def walk(self):
+        print("walking...")
         
-myobjectx = kelas()
-myobjecty = kelas()
-
-myobjecty.variable = "kitty"
-
-print(myobjectx.variable)
-print(myobjecty.variable)
-myobjectx.function()
+class Dog(Animal):
+    def __init__(self, name, age) :
+        self.name = name
+        self.age = age
+        
+    def bark(self):
+        print("Woof!")
+        
+roger = Dog("Roger", 7)
+print(type(roger))
+print(roger.name)
+print(roger.age)
+roger.bark()
+roger.walk()

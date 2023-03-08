@@ -9,9 +9,14 @@ numbers = [
 ]
 
 for number in numbers:
-    if number == 237:
+    if number == 984:
         break
-    
-    if number % 2 == 1:
-        continue
     print(number)
+    
+    # if number % 2 == 1:
+    #     continue
+    # print(number)
+    
+items = [1,2,3,4]
+for index, item in enumerate(items):
+    print(index, item)
