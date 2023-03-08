@@ -25,6 +25,6 @@ def count():
         jumlah = jumlah + 1
         print(jumlah)
         
-    increment()
+    return increment
     
-count()
+increment = count()
