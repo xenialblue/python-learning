@@ -28,3 +28,9 @@ def count():
     return increment
     
 increment = count()
+
+print(increment())
+print(increment())
+print(increment())
+print(increment())
+print(increment())
